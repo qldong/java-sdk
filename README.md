@@ -16,7 +16,7 @@ The REST SDK extension provides a high-level Java interface to accelerate your 
 | dist | Contains the distribution package (jar and license files) |
 | build.xml | Ant build script to package the project (only required if changing Java code)
 
-![](images/emoticons/warning.gif) In order to use the functions provided in the toolkit, the contents from the dist/lib folder should also be referenced in the project.
+**Note**: In order to use the functions provided in the toolkit, the contents from the dist/lib folder should also be referenced in the project.
 
 ##Installation
 
