@@ -1,15 +1,10 @@
 # AppDynamics Java SDK
 
--   [Use Case](resttoolkit-readme.md#use-case)
--   [Files](resttoolkit-readme.md#files)
--   [How to Use](resttoolkit-readme.md#how-to-use)
--   [Rebuilding the Project](resttoolkit-readme.md#rebuilding-the-project)
-
 ##Use Case
 
-The REST Toolkit extension provides a high-level Java interface to accelerate your development of programs that use the AppDynamics REST interface.
+The REST SDK extension provides a high-level Java interface to accelerate your development of programs that use the AppDynamics REST interface.
 
-##Files
+##Directory Structure
 
 | File/Folder | Description |
 | --- | --- |
@@ -23,7 +18,7 @@ The REST Toolkit extension provides a high-level Java interface to accelerate yo
 
 ![](images/emoticons/warning.gif) In order to use the functions provided in the toolkit, the contents from the dist/lib folder should also be referenced in the project.
 
-##How to Use
+##Installation
 
 1. Import RESTToolkit.jar (dist/jar/RESTToolkit.jar).
 
@@ -56,9 +51,12 @@ The REST Toolkit extension provides a high-level Java interface to accelerate yo
 
 ##Contributing
 
-Always feel free to fork and contribute any changes directly via GitHub.
+Always feel free to fork and contribute any changes directly via [GitHub](https://github.com/Appdynamics/java-sdk).
 
+##Community
+
+Find out more in the [AppSphere](http://appsphere.appdynamics.com/t5/Extensions/Java-SDK-for-AppDynamics/idi-p/899) community.
 
 ##Support
 
-For any support questions, please contact ace@appdynamics.com.
+For any questions or feature request, please contact [AppDynamics Center of Excellence](mailto://ace-request@appdynamics.com).
