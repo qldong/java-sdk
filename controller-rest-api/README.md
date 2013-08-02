@@ -1,8 +1,8 @@
-# AppDynamics Java SDK
+# AppDynamics Controller REST API SDK
 
 ##Use Case
 
-The REST SDK extension provides a high-level Java interface to accelerate your development of programs that use the AppDynamics REST interface.
+The Controller REST API SDK extension provides a high-level Java interface to accelerate your development of programs that use the AppDynamics REST interface.
 
 ##Directory Structure
 
