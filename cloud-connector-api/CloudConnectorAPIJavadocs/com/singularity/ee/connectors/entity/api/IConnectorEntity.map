@@ -1,0 +1,28 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./IAccount.html" title="com.singularity.ee.connectors.entity.api.IAccount" alt="" coords="15,273,249,410"/>
+<area shape="rect" id="node1" href="./IAccount.html" title="&lt;TABLE&gt;" alt="" coords="5,267,259,415"/>
+<area shape="rect" id="node2_1" href="./IComputeCenter.html" title="com.singularity.ee.connectors.entity.api.IComputeCenter" alt="" coords="294,225,543,458"/>
+<area shape="rect" id="node2" href="./IComputeCenter.html" title="&lt;TABLE&gt;" alt="" coords="283,219,554,463"/>
+<area shape="rect" id="node3_2" href="./IComputeCenterType.html" title="com.singularity.ee.connectors.entity.api.IComputeCenterType" alt="" coords="589,177,1277,506"/>
+<area shape="rect" id="node3" href="./IComputeCenterType.html" title="&lt;TABLE&gt;" alt="" coords="579,171,1288,511"/>
+<area shape="rect" id="node4_3" href="./IConnectorEntity.html" title="com.singularity.ee.connectors.entity.api.IConnectorEntity" alt="" coords="2565,11,2760,101"/>
+<area shape="rect" id="node4" href="./IConnectorEntity.html" title="&lt;TABLE&gt;" alt="" coords="2555,6,2771,106"/>
+<area shape="rect" id="node5_4" href="./IImage.html" title="com.singularity.ee.connectors.entity.api.IImage" alt="" coords="1323,161,1600,522"/>
+<area shape="rect" id="node5" href="./IImage.html" title="&lt;TABLE&gt;" alt="" coords="1312,155,1611,527"/>
+<area shape="rect" id="node6_5" href="./IImageStore.html" title="com.singularity.ee.connectors.entity.api.IImageStore" alt="" coords="1646,241,2010,442"/>
+<area shape="rect" id="node6" href="./IImageStore.html" title="&lt;TABLE&gt;" alt="" coords="1635,235,2021,447"/>
+<area shape="rect" id="node7_6" href="./IImageStoreType.html" title="com.singularity.ee.connectors.entity.api.IImageStoreType" alt="" coords="2056,225,2640,458"/>
+<area shape="rect" id="node7" href="./IImageStoreType.html" title="&lt;TABLE&gt;" alt="" coords="2045,219,2651,463"/>
+<area shape="rect" id="node8_7" href="./IImageType.html" title="com.singularity.ee.connectors.entity.api.IImageType" alt="" coords="2686,241,3269,442"/>
+<area shape="rect" id="node8" href="./IImageType.html" title="&lt;TABLE&gt;" alt="" coords="2675,235,3279,447"/>
+<area shape="rect" id="node9_8" href="./IMachine.html" title="com.singularity.ee.connectors.entity.api.IMachine" alt="" coords="3315,193,3720,490"/>
+<area shape="rect" id="node9" href="./IMachine.html" title="&lt;TABLE&gt;" alt="" coords="3304,187,3731,495"/>
+<area shape="rect" id="node10_9" href="./IMachineDescriptor.html" title="com.singularity.ee.connectors.entity.api.IMachineDescriptor" alt="" coords="3766,289,4015,394"/>
+<area shape="rect" id="node10" href="./IMachineDescriptor.html" title="&lt;TABLE&gt;" alt="" coords="3755,283,4026,399"/>
+<area shape="rect" id="node11_10" href="./IProperty.html" title="com.singularity.ee.connectors.entity.api.IProperty" alt="" coords="4061,289,4347,394"/>
+<area shape="rect" id="node11" href="./IProperty.html" title="&lt;TABLE&gt;" alt="" coords="4050,283,4358,399"/>
+<area shape="rect" id="node12_11" href="./IPropertyDefinition.html" title="com.singularity.ee.connectors.entity.api.IPropertyDefinition" alt="" coords="4393,241,4628,442"/>
+<area shape="rect" id="node12" href="./IPropertyDefinition.html" title="&lt;TABLE&gt;" alt="" coords="4383,235,4639,447"/>
+<area shape="rect" id="node13_12" href="../impl/AConnectorEntity.html" title="com.singularity.ee.connectors.entity.impl.AConnectorEntity" alt="" coords="4674,305,5038,378"/>
+<area shape="rect" id="node13" href="../impl/AConnectorEntity.html" title="&lt;TABLE&gt;" alt="" coords="4663,299,5049,383"/>
+</map>

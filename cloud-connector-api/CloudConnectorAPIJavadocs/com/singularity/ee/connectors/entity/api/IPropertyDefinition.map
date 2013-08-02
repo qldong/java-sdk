@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./IConnectorEntity.html" title="com.singularity.ee.connectors.entity.api.IConnectorEntity" alt="" coords="407,11,601,101"/>
+<area shape="rect" id="node1" href="./IConnectorEntity.html" title="&lt;TABLE&gt;" alt="" coords="396,6,612,106"/>
+<area shape="rect" id="node3_1" href="./IPropertyDefinition.html" title="com.singularity.ee.connectors.entity.api.IPropertyDefinition" alt="" coords="387,161,621,362"/>
+<area shape="rect" id="node3" href="./IPropertyDefinition.html" title="&lt;TABLE&gt;" alt="" coords="376,155,632,367"/>
+<area shape="rect" id="node2_2" href="./IFilePropertyDefinition.html" title="com.singularity.ee.connectors.entity.api.IFilePropertyDefinition" alt="" coords="16,454,317,575"/>
+<area shape="rect" id="node2" href="./IFilePropertyDefinition.html" title="&lt;TABLE&gt;" alt="" coords="5,449,328,581"/>
+<area shape="rect" id="node4_3" href="./IStringPropertyDefinition.html" title="com.singularity.ee.connectors.entity.api.IStringPropertyDefinition" alt="" coords="363,430,645,599"/>
+<area shape="rect" id="node4" href="./IStringPropertyDefinition.html" title="&lt;TABLE&gt;" alt="" coords="353,425,655,605"/>
+<area shape="rect" id="node5_4" href="../impl/APropertyDefinition.html" title="com.singularity.ee.connectors.entity.impl.APropertyDefinition" alt="" coords="690,422,1126,607"/>
+<area shape="rect" id="node5" href="../impl/APropertyDefinition.html" title="&lt;TABLE&gt;" alt="" coords="679,417,1137,613"/>
+</map>

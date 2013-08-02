@@ -1,0 +1,36 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./AConnectorEntity.html" title="com.singularity.ee.connectors.entity.impl.AConnectorEntity" alt="" coords="2216,35,2411,109"/>
+<area shape="rect" id="node1" href="./AConnectorEntity.html" title="&lt;TABLE&gt;" alt="" coords="2205,30,2421,114"/>
+<area shape="rect" id="node2_1" href="./AProperty.html" title="com.singularity.ee.connectors.entity.impl.AProperty" alt="" coords="254,305,541,394"/>
+<area shape="rect" id="node2" href="./AProperty.html" title="&lt;TABLE&gt;" alt="" coords="243,299,551,399"/>
+<area shape="rect" id="node3_2" href="./APropertyDefinition.html" title="com.singularity.ee.connectors.entity.impl.APropertyDefinition" alt="" coords="587,257,821,442"/>
+<area shape="rect" id="node3" href="./APropertyDefinition.html" title="&lt;TABLE&gt;" alt="" coords="576,251,832,447"/>
+<area shape="rect" id="node4_3" href="./Account.html" title="com.singularity.ee.connectors.entity.impl.Account" alt="" coords="867,289,1101,410"/>
+<area shape="rect" id="node4" href="./Account.html" title="&lt;TABLE&gt;" alt="" coords="857,283,1111,415"/>
+<area shape="rect" id="node5_4" href="./ComputeCenter.html" title="com.singularity.ee.connectors.entity.impl.ComputeCenter" alt="" coords="1146,241,1395,458"/>
+<area shape="rect" id="node5" href="./ComputeCenter.html" title="&lt;TABLE&gt;" alt="" coords="1135,235,1406,463"/>
+<area shape="rect" id="node6_5" href="./ComputeCenterType.html" title="com.singularity.ee.connectors.entity.impl.ComputeCenterType" alt="" coords="1441,193,2129,506"/>
+<area shape="rect" id="node6" href="./ComputeCenterType.html" title="&lt;TABLE&gt;" alt="" coords="1431,187,2140,511"/>
+<area shape="rect" id="node9_6" href="./Image.html" title="com.singularity.ee.connectors.entity.impl.Image" alt="" coords="2175,209,2452,490"/>
+<area shape="rect" id="node9" href="./Image.html" title="&lt;TABLE&gt;" alt="" coords="2164,203,2463,495"/>
+<area shape="rect" id="node10_7" href="./ImageStore.html" title="com.singularity.ee.connectors.entity.impl.ImageStore" alt="" coords="2498,257,2862,442"/>
+<area shape="rect" id="node10" href="./ImageStore.html" title="&lt;TABLE&gt;" alt="" coords="2487,251,2873,447"/>
+<area shape="rect" id="node11_8" href="./ImageStoreType.html" title="com.singularity.ee.connectors.entity.impl.ImageStoreType" alt="" coords="2908,241,3492,458"/>
+<area shape="rect" id="node11" href="./ImageStoreType.html" title="&lt;TABLE&gt;" alt="" coords="2897,235,3503,463"/>
+<area shape="rect" id="node12_9" href="./ImageType.html" title="com.singularity.ee.connectors.entity.impl.ImageType" alt="" coords="3538,257,4121,442"/>
+<area shape="rect" id="node12" href="./ImageType.html" title="&lt;TABLE&gt;" alt="" coords="3527,251,4131,447"/>
+<area shape="rect" id="node13_10" href="./Machine.html" title="com.singularity.ee.connectors.entity.impl.Machine" alt="" coords="4167,209,4572,490"/>
+<area shape="rect" id="node13" href="./Machine.html" title="&lt;TABLE&gt;" alt="" coords="4156,203,4583,495"/>
+<area shape="rect" id="node14_11" href="./MachineDescriptor.html" title="com.singularity.ee.connectors.entity.impl.MachineDescriptor" alt="" coords="4618,305,4867,394"/>
+<area shape="rect" id="node14" href="./MachineDescriptor.html" title="&lt;TABLE&gt;" alt="" coords="4607,299,4878,399"/>
+<area shape="rect" id="node7_12" href="./FileProperty.html" title="com.singularity.ee.connectors.entity.impl.FileProperty" alt="" coords="16,590,275,695"/>
+<area shape="rect" id="node7" href="./FileProperty.html" title="&lt;TABLE&gt;" alt="" coords="5,585,285,701"/>
+<area shape="rect" id="node16_13" href="./StringProperty.html" title="com.singularity.ee.connectors.entity.impl.StringProperty" alt="" coords="320,598,488,687"/>
+<area shape="rect" id="node16" href="./StringProperty.html" title="&lt;TABLE&gt;" alt="" coords="309,593,499,693"/>
+<area shape="rect" id="node8_14" href="./FilePropertyDefinition.html" title="com.singularity.ee.connectors.entity.impl.FilePropertyDefinition" alt="" coords="547,590,848,695"/>
+<area shape="rect" id="node8" href="./FilePropertyDefinition.html" title="&lt;TABLE&gt;" alt="" coords="536,585,859,701"/>
+<area shape="rect" id="node17_15" href="./StringPropertyDefinition.html" title="com.singularity.ee.connectors.entity.impl.StringPropertyDefinition" alt="" coords="894,566,1175,719"/>
+<area shape="rect" id="node17" href="./StringPropertyDefinition.html" title="&lt;TABLE&gt;" alt="" coords="883,561,1186,725"/>
+<area shape="rect" id="node15_16" href="./OSTypedPropertyDefinition.html" title="com.singularity.ee.connectors.entity.impl.OSTypedPropertyDefinition" alt="" coords="2457,11,2845,133"/>
+<area shape="rect" id="node15" href="./OSTypedPropertyDefinition.html" title="&lt;TABLE&gt;" alt="" coords="2446,6,2855,138"/>
+</map>

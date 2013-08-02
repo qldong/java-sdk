@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../api/IAccount.html" title="com.singularity.ee.connectors.entity.api.IAccount" alt="" coords="15,11,321,149"/>
+<area shape="rect" id="node1" href="../api/IAccount.html" title="&lt;TABLE&gt;" alt="" coords="5,6,331,154"/>
+<area shape="rect" id="node3_1" href="./Account.html" title="com.singularity.ee.connectors.entity.impl.Account" alt="" coords="199,209,433,330"/>
+<area shape="rect" id="node3" href="./Account.html" title="&lt;TABLE&gt;" alt="" coords="189,203,443,335"/>
+<area shape="rect" id="node2_2" href="./AConnectorEntity.html" title="com.singularity.ee.connectors.entity.impl.AConnectorEntity" alt="" coords="367,43,561,117"/>
+<area shape="rect" id="node2" href="./AConnectorEntity.html" title="&lt;TABLE&gt;" alt="" coords="356,38,572,122"/>
+</map>

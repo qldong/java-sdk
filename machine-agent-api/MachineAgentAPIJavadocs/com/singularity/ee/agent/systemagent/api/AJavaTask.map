@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./AForkedJavaTask.html" title="com.singularity.ee.agent.systemagent.api.AForkedJavaTask" alt="" coords="15,414,619,551"/>
+<area shape="rect" id="node1" href="./AForkedJavaTask.html" title="&lt;TABLE&gt;" alt="" coords="5,409,630,557"/>
+<area shape="rect" id="node2_1" href="./AJavaTask.html" title="com.singularity.ee.agent.systemagent.api.AJavaTask" alt="" coords="449,177,946,346"/>
+<area shape="rect" id="node2" href="./AJavaTask.html" title="&lt;TABLE&gt;" alt="" coords="438,171,957,351"/>
+<area shape="rect" id="node3_2" href="./AManagedMonitor.html" title="com.singularity.ee.agent.systemagent.api.AManagedMonitor" alt="" coords="665,406,1490,559"/>
+<area shape="rect" id="node3" href="./AManagedMonitor.html" title="&lt;TABLE&gt;" alt="" coords="654,401,1501,565"/>
+<area shape="rect" id="node4_3" href="./ITask.html" title="com.singularity.ee.agent.systemagent.api.ITask" alt="" coords="395,11,999,117"/>
+<area shape="rect" id="node4" href="./ITask.html" title="&lt;TABLE&gt;" alt="" coords="385,6,1010,122"/>
+</map>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Build SDK Samples. This module depends on javaagent.jar. -->
+
+<project name="appagent.sdk" default="package" basedir=".">
+    <property name="src" location="src"/>
+    <property name="docs" location="docs"/>
+    <property name="build" location="build"/>
+    <property name="classes" location="${build}/classes"/>
+    <property name="dist" location="dist"/>
+    <property name="bootstrap-jar" location="lib/javaagent/javaagent.jar"/>
+    <property name="zipName" value="appdynamics-sdk-samples.zip" />
+    <property name="customcorrsrcdir" location="src/html/customcorrelationhelper"/>
+    <property name="customcorrbuilddir" location="build/customcorrelationhelper"/>
+    <property name="tpl" value="../../thirdparty/lib"/>
+    <property name="jquery-ui" value="${tpl}/javascript/jquery-ui-1.9.2"/>
+    <property name="xml-writer" value="${tpl}/javascript/XMLWriter-1.0.0"/>
+
+    <target name="init" depends="clean">
+        <mkdir dir="${dist}"/>
+        <mkdir dir="${build}"/>
+        <mkdir dir="${classes}"/>
+    </target>
+
+    <target name="clean">
+        <delete failonerror="true" quiet="true" dir="${dist}"/>
+        <delete failonerror="true" quiet="true" dir="${build}"/>
+    </target>
+
+    <target name="compile">
+        <javac srcdir="${src}" destdir="${classes}" source="1.5" target="1.5" debug="on" debuglevel="lines,vars,source">
+            <src path="${src}"/>
+            <classpath>
+                <fileset file="${bootstrap-jar}"/>
+            </classpath>
+        </javac>
+    </target>
+
+	<target name="package">
+		<jar destfile="${dist}/${zipName}">
+            <fileset dir="." includes ="src/**,docs/**" />
+		 <manifest>
+             <attribute name="Built-By" value="AppDynamics, Inc."/>
+             <attribute name="Implementation-Version" value="Appdynamics Agent Ver 2.0 Build Date ${TODAY}"/>
+		  </manifest>
+		</jar>
+	</target>
+
+
+</project>

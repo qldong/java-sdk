@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ConnectorException.html" title="com.singularity.ee.connectors.api.ConnectorException" alt="" coords="16,171,155,197"/>
+<area shape="rect" id="node1" href="./ConnectorException.html" title="&lt;TABLE&gt;" alt="" coords="5,160,165,208"/>
+<area shape="rect" id="node2_1" href="./IConnector.html" title="com.singularity.ee.connectors.api.IConnector" alt="" coords="200,11,931,357"/>
+<area shape="rect" id="node2" href="./IConnector.html" title="&lt;TABLE&gt;" alt="" coords="189,6,941,362"/>
+<area shape="rect" id="node3_2" href="./IControllerServices.html" title="com.singularity.ee.connectors.api.IControllerServices" alt="" coords="977,83,2181,285"/>
+<area shape="rect" id="node3" href="./IControllerServices.html" title="&lt;TABLE&gt;" alt="" coords="966,78,2191,290"/>
+<area shape="rect" id="node4_3" href="./InvalidObjectException.html" title="com.singularity.ee.connectors.api.InvalidObjectException" alt="" coords="2227,171,2381,197"/>
+<area shape="rect" id="node4" href="./InvalidObjectException.html" title="&lt;TABLE&gt;" alt="" coords="2216,160,2392,208"/>
+</map>

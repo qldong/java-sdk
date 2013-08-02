@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TaskExecutionException.html" title="com.singularity.ee.agent.systemagent.api.exception.TaskExecutionException" alt="" coords="16,17,179,42"/>
+<area shape="rect" id="node1" href="./TaskExecutionException.html" title="&lt;TABLE&gt;" alt="" coords="5,5,189,53"/>
+<area shape="rect" id="node2_1" href="./TaskInstantiationException.html" title="com.singularity.ee.agent.systemagent.api.exception.TaskInstantiationException" alt="" coords="224,17,400,42"/>
+<area shape="rect" id="node2" href="./TaskInstantiationException.html" title="&lt;TABLE&gt;" alt="" coords="213,5,411,53"/>
+</map>

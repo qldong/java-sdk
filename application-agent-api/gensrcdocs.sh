@@ -1,0 +1,1 @@
+java -jar ../../thirdparty/lib/java2html/java2html.jar -targetdir src/docs/ -srcdir src/java/ -converter xhtml11 -style Kawa

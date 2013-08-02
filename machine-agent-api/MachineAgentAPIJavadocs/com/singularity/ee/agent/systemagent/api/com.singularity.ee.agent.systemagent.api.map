@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./AForkedJavaTask.html" title="com.singularity.ee.agent.systemagent.api.AForkedJavaTask" alt="" coords="15,510,619,647"/>
+<area shape="rect" id="node1" href="./AForkedJavaTask.html" title="&lt;TABLE&gt;" alt="" coords="5,505,630,653"/>
+<area shape="rect" id="node2_1" href="./AJavaTask.html" title="com.singularity.ee.agent.systemagent.api.AJavaTask" alt="" coords="449,273,946,442"/>
+<area shape="rect" id="node2" href="./AJavaTask.html" title="&lt;TABLE&gt;" alt="" coords="438,267,957,447"/>
+<area shape="rect" id="node3_2" href="./AManagedMonitor.html" title="com.singularity.ee.agent.systemagent.api.AManagedMonitor" alt="" coords="665,502,1490,655"/>
+<area shape="rect" id="node3" href="./AManagedMonitor.html" title="&lt;TABLE&gt;" alt="" coords="654,497,1501,661"/>
+<area shape="rect" id="node4_3" href="./EnvPropertyWriter.html" title="com.singularity.ee.agent.systemagent.api.EnvPropertyWriter" alt="" coords="1351,75,1694,149"/>
+<area shape="rect" id="node4" href="./EnvPropertyWriter.html" title="&lt;TABLE&gt;" alt="" coords="1341,70,1705,154"/>
+<area shape="rect" id="node5_4" href="./IOutputPropertyGatherer.html" title="com.singularity.ee.agent.systemagent.api.IOutputPropertyGatherer" alt="" coords="1740,59,2012,165"/>
+<area shape="rect" id="node5" href="./IOutputPropertyGatherer.html" title="&lt;TABLE&gt;" alt="" coords="1729,54,2023,170"/>
+<area shape="rect" id="node6_5" href="./ISelfManagedTask.html" title="com.singularity.ee.agent.systemagent.api.ISelfManagedTask" alt="" coords="991,313,1630,402"/>
+<area shape="rect" id="node6" href="./ISelfManagedTask.html" title="&lt;TABLE&gt;" alt="" coords="981,307,1641,407"/>
+<area shape="rect" id="node7_6" href="./IStreamConsumer.html" title="com.singularity.ee.agent.systemagent.api.IStreamConsumer" alt="" coords="2058,59,2243,165"/>
+<area shape="rect" id="node7" href="./IStreamConsumer.html" title="&lt;TABLE&gt;" alt="" coords="2047,54,2254,170"/>
+<area shape="rect" id="node8_7" href="./ITask.html" title="com.singularity.ee.agent.systemagent.api.ITask" alt="" coords="702,59,1306,165"/>
+<area shape="rect" id="node8" href="./ITask.html" title="&lt;TABLE&gt;" alt="" coords="691,54,1317,170"/>
+<area shape="rect" id="node9_8" href="./ITaskVerifier.html" title="com.singularity.ee.agent.systemagent.api.ITaskVerifier" alt="" coords="2289,67,2637,157"/>
+<area shape="rect" id="node9" href="./ITaskVerifier.html" title="&lt;TABLE&gt;" alt="" coords="2278,62,2647,162"/>
+<area shape="rect" id="node10_9" href="./MetricWriter.html" title="com.singularity.ee.agent.systemagent.api.MetricWriter" alt="" coords="2682,11,3073,213"/>
+<area shape="rect" id="node10" href="./MetricWriter.html" title="&lt;TABLE&gt;" alt="" coords="2671,6,3083,218"/>
+<area shape="rect" id="node11_10" href="./TaskExecutionContext.html" title="com.singularity.ee.agent.systemagent.api.TaskExecutionContext" alt="" coords="3118,43,3546,181"/>
+<area shape="rect" id="node11" href="./TaskExecutionContext.html" title="&lt;TABLE&gt;" alt="" coords="3107,38,3557,186"/>
+<area shape="rect" id="node12_11" href="./TaskOutput.html" title="com.singularity.ee.agent.systemagent.api.TaskOutput" alt="" coords="3591,75,3787,149"/>
+<area shape="rect" id="node12" href="./TaskOutput.html" title="&lt;TABLE&gt;" alt="" coords="3581,70,3798,154"/>
+</map>

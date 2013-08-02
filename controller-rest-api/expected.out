@@ -1,0 +1,159 @@
+========================
+      NON-METRICS:
+========================
+------------------------
+All Applications:
+
+ACME Book Store Application
+------------------------
+All Business Transactions:
+
+ViewCart.addToCart
+UserLogin.memberLogin
+/appdynamicspilot/
+ViewItems.getAllItems
+ViewCart.sendItems
+UserLogOut.memberLogOut
+------------------------
+All Tiers:
+
+ECommerce Server
+Inventory Server
+Order Processing Server
+------------------------
+All Nodes:
+
+Node_8000
+Node_8003
+Node_8001
+Node_8002
+------------------------
+All BT IDs and their names:
+
+BT ID:   104
+BT name: ViewCart.addToCart
+
+BT ID:   105
+BT name: UserLogin.memberLogin
+
+BT ID:   106
+BT name: /appdynamicspilot/
+
+BT ID:   107
+BT name: ViewItems.getAllItems
+
+BT ID:   108
+BT name: ViewCart.sendItems
+
+BT ID:   109
+BT name: UserLogOut.memberLogOut
+
+------------------------
+All BTs from all Apps:
+
+App name:
+ACME Book Store Application
+BTs:
+ViewCart.addToCart
+UserLogin.memberLogin
+/appdynamicspilot/
+ViewItems.getAllItems
+ViewCart.sendItems
+UserLogOut.memberLogOut
+
+------------------------
+All BTs from all Tiers:
+
+Tier name:
+ECommerce Server
+BTs:
+ViewCart.addToCart
+UserLogin.memberLogin
+/appdynamicspilot/
+ViewItems.getAllItems
+ViewCart.sendItems
+UserLogOut.memberLogOut
+
+Tier name:
+Inventory Server
+BTs:
+
+Tier name:
+Order Processing Server
+BTs:
+
+------------------------
+All Node IDs and their names:
+
+Node ID:   4
+Node name: Node_8000
+
+Node ID:   5
+Node name: Node_8003
+
+Node ID:   6
+Node name: Node_8001
+
+Node ID:   7
+Node name: Node_8002
+
+------------------------
+Check that Nodes can be found by names:
+
+Node name: Node_8000 OK
+Node name: Node_8003 OK
+Node name: Node_8001 OK
+Node name: Node_8002 OK
+------------------------
+All Nodes from all Apps:
+
+App name:
+ACME Book Store Application
+Nodes:
+Node_8000
+Node_8003
+Node_8001
+Node_8002
+
+------------------------
+All Nodes from all Tiers:
+
+Tier name:
+ECommerce Server
+Nodes:
+Node_8000
+Node_8003
+
+Tier name:
+Inventory Server
+Nodes:
+Node_8002
+
+Tier name:
+Order Processing Server
+Nodes:
+Node_8001
+
+------------------------
+All Tier IDs and their names:
+
+Tier ID:   2
+Tier name: ECommerce Server
+
+Tier ID:   3
+Tier name: Inventory Server
+
+Tier ID:   4
+Tier name: Order Processing Server
+
+------------------------
+All Tiers from all Apps:
+
+App name:
+ACME Book Store Application
+Tiers:
+ECommerce Server
+Inventory Server
+Order Processing Server
+
+------------------------
