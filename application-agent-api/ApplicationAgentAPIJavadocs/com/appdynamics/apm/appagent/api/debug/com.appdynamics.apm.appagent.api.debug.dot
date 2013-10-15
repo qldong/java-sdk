@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.appdynamics.apm.appagent.api.debug.IAgentCommunicator
-	c7 [label=<<table title="com.appdynamics.apm.appagent.api.debug.IAgentCommunicator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IAgentCommunicator.html">
+	c11 [label=<<table title="com.appdynamics.apm.appagent.api.debug.IAgentCommunicator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IAgentCommunicator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IAgentCommunicator </td></tr>
@@ -20,14 +20,18 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + waitForConfig(matcher : IConfigMatcher, waitTimeInSeconds : long) : boolean </td></tr>
+<tr><td align="left" balign="left"> + notifyOnConfigChange(countDownLatch : CountDownLatch, matcher : IConfigMatcher) </td></tr>
 <tr><td align="left" balign="left"> + notifyOnTransactionConfig(notificationObject : CountDownLatch, xmlRegex : String) </td></tr>
 <tr><td align="left" balign="left"> + notifyOnTransactionConfig(notificationObject : CountDownLatch, xPathExpression : String, xmlRegex : String) </td></tr>
+<tr><td align="left" balign="left"> + notifyOnDataGathererConfig(notificationObject : CountDownLatch, dataConfigName : String, userPrincipal : String) </td></tr>
 <tr><td align="left" balign="left"> + notifyOnNodePropertyChange(notificationObject : CountDownLatch, key : String, value : String) </td></tr>
 <tr><td align="left" balign="left"> + notifyOnTransformation(notificationObject : CountDownLatch, matchers : ITransformationMatch[]) </td></tr>
+<tr><td align="left" balign="left"> + notifyOnLog(notificationObject : CountDownLatch, matchers : ILogMatch[]) </td></tr>
+<tr><td align="left" balign="left"> + getAgentLog(timeout : int) : String[] </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IAgentCommunicator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.appdynamics.apm.appagent.api.debug.IConfigMatcher
-	c8 [label=<<table title="com.appdynamics.apm.appagent.api.debug.IConfigMatcher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IConfigMatcher.html">
+	c12 [label=<<table title="com.appdynamics.apm.appagent.api.debug.IConfigMatcher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IConfigMatcher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IConfigMatcher </td></tr>
@@ -39,8 +43,21 @@ digraph G {
 <tr><td align="left" balign="left"> + configMatches(payload : Map&lt;String, Object&gt;) : boolean </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IConfigMatcher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// com.appdynamics.apm.appagent.api.debug.ILogMatch
+	c13 [label=<<table title="com.appdynamics.apm.appagent.api.debug.ILogMatch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ILogMatch.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> ILogMatch </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + matches(logLevel : String, message : String, stackTrace : String[]) : boolean </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ILogMatch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.appdynamics.apm.appagent.api.debug.ITransformationMatch
-	c9 [label=<<table title="com.appdynamics.apm.appagent.api.debug.ITransformationMatch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ITransformationMatch.html">
+	c14 [label=<<table title="com.appdynamics.apm.appagent.api.debug.ITransformationMatch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ITransformationMatch.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ITransformationMatch </td></tr>
@@ -50,6 +67,7 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + onTransformation(className : String, methodName : String, interceptorName : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + onSkippedTransformation(className : String) : boolean </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ITransformationMatch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }

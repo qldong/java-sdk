@@ -36,5 +36,77 @@ digraph G {
 <tr><td align="left" balign="left"> + getSafeReturnType(returnType : String) : Object </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NoOpInvocationHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// com.appdynamics.apm.appagent.api.IEndUserMonitoringDelegate
+	c6 [label=<<table title="com.appdynamics.apm.appagent.api.IEndUserMonitoringDelegate" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IEndUserMonitoringDelegate.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> IEndUserMonitoringDelegate </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + getHeader() : String </td></tr>
+<tr><td align="left" balign="left"> + getFooter() : String </td></tr>
+<tr><td align="left" balign="left"> + isValidTransaction() : boolean </td></tr>
+<tr><td align="left" balign="left"> + doInjectFooter() : boolean </td></tr>
+<tr><td align="left" balign="left"> + doInjectHeader() : boolean </td></tr>
+<tr><td align="left" balign="left"> + filterStart() </td></tr>
+<tr><td align="left" balign="left"> + filterEnd() </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IEndUserMonitoringDelegate.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// com.appdynamics.apm.appagent.api.IMetricAndEventReporter
+	c7 [label=<<table title="com.appdynamics.apm.appagent.api.IMetricAndEventReporter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IMetricAndEventReporter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> IMetricAndEventReporter </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + reportAverageMetric(metricName : String, metricValue : long) </td></tr>
+<tr><td align="left" balign="left"> + reportSumMetric(metricName : String, metricValue : long) </td></tr>
+<tr><td align="left" balign="left"> + reportObservedMetric(metricName : String, metricValue : long) </td></tr>
+<tr><td align="left" balign="left"> + reportMetric(metricName : String, metricValue : long, aggregationType : String, timeRollupType : String, clusterRoolupType : String) </td></tr>
+<tr><td align="left" balign="left"> + publishErrorEvent(summaryMessage : String, details : Map&lt;String, String&gt;, critical : boolean) </td></tr>
+<tr><td align="left" balign="left"> + publishInfoEvent(summaryMessage : String, details : Map&lt;String, String&gt;) </td></tr>
+<tr><td align="left" balign="left"> + publishEvent(eventSummary : String, severity : String, eventType : String, details : Map&lt;String, String&gt;) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IMetricAndEventReporter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// com.appdynamics.apm.appagent.api.ITransactionDemarcator
+	c8 [label=<<table title="com.appdynamics.apm.appagent.api.ITransactionDemarcator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ITransactionDemarcator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> ITransactionDemarcator </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + APPDYNAMICS_TRANSACTION_CORRELATION_HEADER : String </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + beginExternalCall(invokedServiceIdentifyingName : String, invokedServiceDisplayName : String, synchronous : boolean) : String </td></tr>
+<tr><td align="left" balign="left"> + beginExternalCall(invokedServiceIdentifyingProperties : Map&lt;String, String&gt;, invokedServiceDisplayName : String, synchronous : boolean) : String </td></tr>
+<tr><td align="left" balign="left"> + endExternalCall(error : boolean, errorDetail : String) </td></tr>
+<tr><td align="left" balign="left"> + beginContinuingTransactionAndAddCurrentThread(appDynamicsTransactionHeader : String, uniqueIdentifierForTransaction : String) : String </td></tr>
+<tr><td align="left" balign="left"> + endContinuingTransactionAndRemoveCurrentThread() : boolean </td></tr>
+<tr><td align="left" balign="left"> + endContinuingTransactionAndRemoveCurrentThread(unhandledError : Throwable) : boolean </td></tr>
+<tr><td align="left" balign="left"> + getUniqueIdentifierForTransaction() : String </td></tr>
+<tr><td align="left" balign="left"> + setUniqueIdentifierForTransaction(uniqueIdentifierForTransaction : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + addCurrentThreadToTransaction(uniqueIdentifierForTransaction : String, activityName : String, activityProperties : Map&lt;String, String&gt;) : boolean </td></tr>
+<tr><td align="left" balign="left"> + removeCurrentThreadFromTransaction(thrownException : Throwable) : boolean </td></tr>
+<tr><td align="left" balign="left"> + removeCurrentThreadFromTransaction(context : String, throwable : Throwable) : boolean </td></tr>
+<tr><td align="left" balign="left"> + setActivityNameForCurrentThread(activityName : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + addPropertyForCurrentThread(name : String, value : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + addPropertiesForCurrentThread(properties : Map&lt;String, String&gt;) : boolean </td></tr>
+<tr><td align="left" balign="left"> + extractTransactionHeaderFromJMSMessage(jmsMessage : Object) : String </td></tr>
+<tr><td align="left" balign="left"> + beginContinuingTransaction(appDynamicsTransactionHeader : String, uniqueIdentifierForTransaction : String) : String </td></tr>
+<tr><td align="left" balign="left"> + endContinuingTransaction(appDynamicsTransactionHeader : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + beginOriginatingTransaction(transactionName : String, uniqueIdentifierForTransaction : String) : String </td></tr>
+<tr><td align="left" balign="left"> + endOriginatingTransaction(uniqueIdentifierForTransaction : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + beginOriginatingTransactionAndAddCurrentThread(transactionName : String, uniqueIdentifierForTransaction : String) : String </td></tr>
+<tr><td align="left" balign="left"> + endOriginatingTransactionAndRemoveCurrentThread() : boolean </td></tr>
+<tr><td align="left" balign="left"> + endOriginatingTransactionAndRemoveCurrentThread(context : String, throwable : Throwable) : boolean </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ITransactionDemarcator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

@@ -1,6 +1,12 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./AgentDelegate.html" title="com.appdynamics.apm.appagent.api.AgentDelegate" alt="" coords="16,11,424,117"/>
-<area shape="rect" id="node1" href="./AgentDelegate.html" title="&lt;TABLE&gt;" alt="" coords="5,6,435,122"/>
-<area shape="rect" id="node2_1" href="./NoOpInvocationHandler.html" title="com.appdynamics.apm.appagent.api.NoOpInvocationHandler" alt="" coords="470,19,869,109"/>
-<area shape="rect" id="node2" href="./NoOpInvocationHandler.html" title="&lt;TABLE&gt;" alt="" coords="459,14,879,114"/>
+<area shape="rect" id="node1_0" href="./AgentDelegate.html" title="com.appdynamics.apm.appagent.api.AgentDelegate" alt="" coords="16,171,424,277"/>
+<area shape="rect" id="node1" href="./AgentDelegate.html" title="&lt;TABLE&gt;" alt="" coords="5,166,435,282"/>
+<area shape="rect" id="node2_1" href="./NoOpInvocationHandler.html" title="com.appdynamics.apm.appagent.api.NoOpInvocationHandler" alt="" coords="470,179,869,269"/>
+<area shape="rect" id="node2" href="./NoOpInvocationHandler.html" title="&lt;TABLE&gt;" alt="" coords="459,174,879,274"/>
+<area shape="rect" id="node3_2" href="./IEndUserMonitoringDelegate.html" title="com.appdynamics.apm.appagent.api.IEndUserMonitoringDelegate" alt="" coords="915,131,1120,317"/>
+<area shape="rect" id="node3" href="./IEndUserMonitoringDelegate.html" title="&lt;TABLE&gt;" alt="" coords="904,126,1131,322"/>
+<area shape="rect" id="node4_3" href="./IMetricAndEventReporter.html" title="com.appdynamics.apm.appagent.api.IMetricAndEventReporter" alt="" coords="1165,131,1968,317"/>
+<area shape="rect" id="node4" href="./IMetricAndEventReporter.html" title="&lt;TABLE&gt;" alt="" coords="1155,126,1979,322"/>
+<area shape="rect" id="node5_4" href="./ITransactionDemarcator.html" title="com.appdynamics.apm.appagent.api.ITransactionDemarcator" alt="" coords="2013,11,2909,437"/>
+<area shape="rect" id="node5" href="./ITransactionDemarcator.html" title="&lt;TABLE&gt;" alt="" coords="2003,6,2920,442"/>
 </map>

@@ -1,8 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./IAgentCommunicator.html" title="com.appdynamics.apm.appagent.api.debug.IAgentCommunicator" alt="" coords="15,11,694,165"/>
-<area shape="rect" id="node1" href="./IAgentCommunicator.html" title="&lt;TABLE&gt;" alt="" coords="5,6,705,170"/>
-<area shape="rect" id="node2_1" href="./IConfigMatcher.html" title="com.appdynamics.apm.appagent.api.debug.IConfigMatcher" alt="" coords="739,43,1103,133"/>
-<area shape="rect" id="node2" href="./IConfigMatcher.html" title="&lt;TABLE&gt;" alt="" coords="729,38,1114,138"/>
-<area shape="rect" id="node3_2" href="./ITransformationMatch.html" title="com.appdynamics.apm.appagent.api.debug.ITransformationMatch" alt="" coords="1149,43,1747,133"/>
-<area shape="rect" id="node3" href="./ITransformationMatch.html" title="&lt;TABLE&gt;" alt="" coords="1138,38,1758,138"/>
+<area shape="rect" id="node1_0" href="./IAgentCommunicator.html" title="com.appdynamics.apm.appagent.api.debug.IAgentCommunicator" alt="" coords="15,11,723,229"/>
+<area shape="rect" id="node1" href="./IAgentCommunicator.html" title="&lt;TABLE&gt;" alt="" coords="5,6,734,234"/>
+<area shape="rect" id="node2_1" href="./IConfigMatcher.html" title="com.appdynamics.apm.appagent.api.debug.IConfigMatcher" alt="" coords="769,75,1133,165"/>
+<area shape="rect" id="node2" href="./IConfigMatcher.html" title="&lt;TABLE&gt;" alt="" coords="758,70,1143,170"/>
+<area shape="rect" id="node3_2" href="./ILogMatch.html" title="com.appdynamics.apm.appagent.api.debug.ILogMatch" alt="" coords="1178,75,1654,165"/>
+<area shape="rect" id="node3" href="./ILogMatch.html" title="&lt;TABLE&gt;" alt="" coords="1167,70,1665,170"/>
+<area shape="rect" id="node4_3" href="./ITransformationMatch.html" title="com.appdynamics.apm.appagent.api.debug.ITransformationMatch" alt="" coords="1699,67,2298,173"/>
+<area shape="rect" id="node4" href="./ITransformationMatch.html" title="&lt;TABLE&gt;" alt="" coords="1689,62,2309,178"/>
 </map>

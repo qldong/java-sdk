@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.appdynamics.apm.appagent.api.debug.IAgentCommunicator
-	c23 [label=<<table title="com.appdynamics.apm.appagent.api.debug.IAgentCommunicator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IAgentCommunicator.html">
+	c39 [label=<<table title="com.appdynamics.apm.appagent.api.debug.IAgentCommunicator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IAgentCommunicator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IAgentCommunicator </td></tr>
@@ -20,10 +20,14 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + waitForConfig(matcher : IConfigMatcher, waitTimeInSeconds : long) : boolean </td></tr>
+<tr><td align="left" balign="left"> + notifyOnConfigChange(countDownLatch : CountDownLatch, matcher : IConfigMatcher) </td></tr>
 <tr><td align="left" balign="left"> + notifyOnTransactionConfig(notificationObject : CountDownLatch, xmlRegex : String) </td></tr>
 <tr><td align="left" balign="left"> + notifyOnTransactionConfig(notificationObject : CountDownLatch, xPathExpression : String, xmlRegex : String) </td></tr>
+<tr><td align="left" balign="left"> + notifyOnDataGathererConfig(notificationObject : CountDownLatch, dataConfigName : String, userPrincipal : String) </td></tr>
 <tr><td align="left" balign="left"> + notifyOnNodePropertyChange(notificationObject : CountDownLatch, key : String, value : String) </td></tr>
 <tr><td align="left" balign="left"> + notifyOnTransformation(notificationObject : CountDownLatch, matchers : ITransformationMatch[]) </td></tr>
+<tr><td align="left" balign="left"> + notifyOnLog(notificationObject : CountDownLatch, matchers : ILogMatch[]) </td></tr>
+<tr><td align="left" balign="left"> + getAgentLog(timeout : int) : String[] </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IAgentCommunicator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }

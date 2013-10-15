@@ -9,18 +9,18 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// com.appdynamics.apm.appagent.api.debug.IConfigMatcher
-	c49 [label=<<table title="com.appdynamics.apm.appagent.api.debug.IConfigMatcher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IConfigMatcher.html">
+	// com.appdynamics.apm.appagent.api.debug.ILogMatch
+	c68 [label=<<table title="com.appdynamics.apm.appagent.api.debug.ILogMatch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ILogMatch.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> IConfigMatcher </td></tr>
+<tr><td align="center" balign="center"> ILogMatch </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + configMatches(payload : Map&lt;String, Object&gt;) : boolean </td></tr>
+<tr><td align="left" balign="left"> + matches(logLevel : String, message : String, stackTrace : String[]) : boolean </td></tr>
 		</table></td></tr>
-		</table>>, URL="./IConfigMatcher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ILogMatch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 
